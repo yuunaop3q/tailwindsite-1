@@ -1,0 +1,15 @@
+{
+  "name": "tailwind_practices_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./public/style.css",
+    "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
